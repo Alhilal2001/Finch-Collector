@@ -1,0 +1,47 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .form-container > p > * {
+    margin-right: 5px;
+  }
+  
+  .form-container > p > label {
+    font-size: large;
+  }
+  
+  .form-container > table {
+    padding: 0 40px;
+    width: 100%;
+    border-spacing: 0 20px;
+  }
+  
+  .form-container > table > tbody > tr > th {
+    text-align: left;
+    padding: 6px 20px 0 0;
+    font-weight: normal;
+    vertical-align: top;
+    font-size: var(--font-reg);
+  }
+  
+  .form-container > table > tbody > tr > td {
+    max-width: 60%;
+  }
+  
+  .form-container > table > tbody > tr > td > * {
+    width: 100%;
+    padding: 2px 4px;
+    font-size: var(--font-l);
+  }
+  
+  .form-container > table > tbody > tr > td > textarea {
+    height: calc(4 * var(--font-l) + 8px);
+    font-family: inherit;
+  }
+  
+  .form-container > .btn.end {
+    align-self: flex-end;
+    margin-right: 40px;
+  }
